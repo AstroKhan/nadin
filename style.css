@@ -43,17 +43,19 @@ h1 {
 
 .main {
     background: linear-gradient(#fed, #def);
+    text-align: center;
 }
-.img {
 
-}
 .img img {
-    max-width: 100vw;
+    max-width: 80vw;
     border-radius: 40%;
+    margin-bottom: 30px;
+    margin-top: 20px;
 }
 .desc {
     height: 200px;
-    
+    color: #fff;
+    font-size: 1.1rem;
 }
 .footer {
     height: 100px;
