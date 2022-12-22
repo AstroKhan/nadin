@@ -20,7 +20,7 @@
             <li><a href='./src/contacts/index.html'>Контакты</a></li>
         </ul>
     </nav>
-    <div class="main">
+    <div class="main" id="pic">
         <div class="img">
             <img src="nadya.jpg" alt="Это я"/>
         </div>
@@ -34,5 +34,19 @@
         <h5>Все права защищены и все такое.</h5>
         <p id="tradeSign">@2022 NikFreak Studio.</p>
     </footer>
+    <script src="three.min.js"></script>
+    <script src="vanta.birds.min.js"></script>
+    <script>
+        VANTA.BIRDS({
+            el: "#pic",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00
+        })
+    </script>
 </body>
 </html>
